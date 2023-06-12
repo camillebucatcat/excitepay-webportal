@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    // https://www.tailwindshades.com/
+    html {
+        --excite-pay-white: #FCFCFC;
+        --excite-pay-gray: #333335;
+        --excite-pay-darkgray: #1E1E1E;
+
+        //primary
+        --excite-pay-primary: #3376E4;
+        --excite-pay-primary-50: #D5E3F9;
+        --excite-pay-primary-100: #C3D7F7;
+        --excite-pay-primary-200: #9FBFF2;
+        --excite-pay-primary-300: #7BA6EE;
+        --excite-pay-primary-400: #578EE9;
+        --excite-pay-primary-500: #3376E4;
+        --excite-pay-primary-600: #1A5BC5;
+        --excite-pay-primary-700: #134493;
+        --excite-pay-primary-800: #0D2D62;
+        --excite-pay-primary-900: #102F59;
+    }
+}
