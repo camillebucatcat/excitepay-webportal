@@ -1,0 +1,26 @@
+
+.card{
+    background: url(/assets/images/hero-card.svg);
+    min-height: 80vh;
+    max-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+}
+
+ @media (max-width: 640px){
+    h1, p{
+        line-height: 1.5;
+    }
+    .card{
+        height: 74vh;
+    }
+ }
+
+
+//  img{
+//     width: 100%;
+//     height: 100%;
+//  }
