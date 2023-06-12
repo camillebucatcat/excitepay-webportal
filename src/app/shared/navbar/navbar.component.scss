@@ -1,0 +1,51 @@
+.item-value {
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    background-color: #3376E4;
+    font-size: 7px;
+    color: #fff;
+}
+
+.search-input, .ant-input {
+    width: 55rem;
+    height: 30px;
+    margin: auto;
+
+    .search-bar {
+        background-color: #3B3C41; 
+        color: #fff;
+        border-style: none; 
+        border-radius: 5px;
+    }
+    
+    .ant-input-affix-wrapper > input.ant-input {
+        padding: 15px;
+    }
+
+}
+
+li {
+    display: inline;
+}
+
+.topnav {
+    overflow: hidden;
+
+    a {
+        float: left;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        //border: 6px solid transparent;
+    }
+
+    a:hover {
+        border-bottom: 6px solid #676970;
+    }
+
+    a.active {
+        border-bottom: 6px solid #676970;
+        color: #3376E4;
+    }
+}
