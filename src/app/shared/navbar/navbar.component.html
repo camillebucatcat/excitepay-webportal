@@ -1,26 +1,22 @@
 <!--1st nav-->
-<nav class="w-full flex items-center p-4" style="background-color: #333335;" >
+<nav class="w-full flex items-center justify-between print:justify-center p-4 relative" style="background-color: #333335;" >
   <div class="ml-20">
     <img src="/assets/images/ExcitePay-Logo.png" class="w-32">
   </div>
-  <div nz-row class="ml-20" style="margin: auto;">
-    <div nz-col nzSpan="12" nzOffset="6" nzPull="6">
-      <div class="flex items-center search-input">
-        <nz-input-group class="search-bar" [nzSuffix]="suffixIconSearch" >
-          <input type="text" class="search-bar" nz-input placeholder="Search" />
-        </nz-input-group>
-        <ng-template #suffixIconSearch>
-          <span nz-icon nzType="search">
-            <img style="mix-blend-mode: soft-light;" src="/assets/icons/search-icon.svg">
-          </span>
-        </ng-template>
-        <div class="ml-3.5">
-          <div class="flex md:m-0 w-5 h-5">
-            <img src="/assets/icons/pushcart-icon.svg">
-            <div class="absolute text-center item-value ml-4">
-              <span>0</span>
-            </div>
-          </div>
+  <div class="flex items-center search-input">
+    <nz-input-group class="search-bar" [nzSuffix]="suffixIconSearch" >
+      <input type="text" class="search-bar" nz-input placeholder="Search" />
+    </nz-input-group>
+    <ng-template #suffixIconSearch>
+      <span nz-icon nzType="search">
+        <img style="mix-blend-mode: soft-light;" src="/assets/icons/search-icon.svg">
+      </span>
+    </ng-template>
+    <div class="ml-3.5">
+      <div class="flex md:m-0 w-5 h-5">
+        <img src="/assets/icons/pushcart-icon.svg">
+        <div class="absolute text-center item-value ml-4">
+          <span>0</span>
         </div>
       </div>
     </div>
