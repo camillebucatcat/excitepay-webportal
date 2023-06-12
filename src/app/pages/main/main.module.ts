@@ -8,11 +8,14 @@ import { NavbarComponent } from 'src/app/shared/navbar/navbar.component';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzInputModule } from 'ng-zorro-antd/input';
+import { HeroComponent } from 'src/app/shared/hero/hero.component';
+
 
 @NgModule({
   declarations: [
     MainComponent,
-    NavbarComponent
+    NavbarComponent,
+    HeroComponent
   ],
   imports: [
     CommonModule,
