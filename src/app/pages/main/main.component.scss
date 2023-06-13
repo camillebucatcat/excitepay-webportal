@@ -1,0 +1,51 @@
+.bg-img{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.col-1-img{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,51,104,0.8085609243697479) 0%), url(/assets/images/groceries.svg);
+    background-size: cover;
+}
+.col-2-img{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,51,104,0.8085609243697479) 0%), url(/assets/images/pets.svg);
+    background-size: cover;
+}
+.col-3-img{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,51,104,0.8085609243697479) 0%), url(/assets/images/retail.svg);
+    background-size: cover;
+}
+.col-4-img{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,51,104,0.8085609243697479) 0%), url(/assets/images/experience.svg);
+    background-size: cover;
+}
+.col-5-img{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,51,104,0.8085609243697479) 0%), url(/assets/images/health-n-beauty.svg);
+    background-size: cover;
+}
+.col-6-img{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,51,104,0.8085609243697479) 0%), url(/assets/images/electronics.svg);
+    background-size: cover;
+}
+.col-7-img{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,51,104,0.8085609243697479) 0%), url(/assets/images/groceries.svg);
+    background-size: cover;
+}
+.category{
+    height: 309px;
+}
+.see-more{
+    font-size: 10px;
+}
+.about-bg{
+    height: 55vh;
+    background: url(/assets/images/about-bg.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 768px){
+.about-bg img {
+    display: block!important;
+    }
+}
