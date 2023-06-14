@@ -12,6 +12,7 @@ import { HeroComponent } from 'src/app/shared/hero/hero.component';
 import { CategoryComponent } from 'src/app/shared/category/category.component';
 import { AboutComponent } from 'src/app/shared/about/about.component';
 import { FaqComponent } from 'src/app/shared/faq/faq.component';
+import { CtaComponent } from 'src/app/shared/cta/cta.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FaqComponent } from 'src/app/shared/faq/faq.component';
     HeroComponent,
     CategoryComponent,
     AboutComponent,
-    FaqComponent
+    FaqComponent,
+    CtaComponent
   ],
   imports: [
     CommonModule,

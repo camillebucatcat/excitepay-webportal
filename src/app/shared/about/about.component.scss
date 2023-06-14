@@ -9,4 +9,20 @@
 .about-bg img {
     display: none;
     }
+    .container{
+        width: auto;
+    }
+}
+
+@media (min-width: 1024px){
+    .about-bg img {
+        right: 220px !important;
+    }
+
+}
+
+@media (max-width: 768px) { 
+    .container{
+        padding-left: 0;
+    }
 }
