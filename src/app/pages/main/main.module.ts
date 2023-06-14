@@ -13,7 +13,8 @@ import { CategoryComponent } from 'src/app/shared/category/category.component';
 import { AboutComponent } from 'src/app/shared/about/about.component';
 import { FaqComponent } from 'src/app/shared/faq/faq.component';
 import { CtaComponent } from 'src/app/shared/cta/cta.component';
-
+import { NzRateModule } from 'ng-zorro-antd/rate';
+import { FeaturedCardsComponent } from 'src/app/shared/featured-cards/featured-cards.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CtaComponent } from 'src/app/shared/cta/cta.component';
     CategoryComponent,
     AboutComponent,
     FaqComponent,
-    CtaComponent
+    CtaComponent,
+    FeaturedCardsComponent
   ],
   imports: [
     CommonModule,
@@ -32,7 +34,8 @@ import { CtaComponent } from 'src/app/shared/cta/cta.component';
     NzDropDownModule,
     NzSelectModule,
     NzInputModule,
-    NzGridModule
+    NzGridModule,
+    NzRateModule
   ]
 })
 export class MainModule { }
