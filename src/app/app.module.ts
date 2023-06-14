@@ -13,16 +13,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
 import { NzSelectComponent, NzSelectModule } from 'ng-zorro-antd/select';
-import { FooterComponent } from './shared/footer/footer.component';
 
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
-    AppComponent,
-    FooterComponent,
-   
+    AppComponent
   ],
   imports: [
     BrowserModule,
