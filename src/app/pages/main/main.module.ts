@@ -16,7 +16,7 @@ import { FaqComponent } from 'src/app/shared/faq/faq.component';
 import { CtaComponent } from 'src/app/shared/cta/cta.component';
 import { NzRateModule } from 'ng-zorro-antd/rate';
 import { FeaturedCardsComponent } from 'src/app/shared/featured-cards/featured-cards.component';
-
+import { FoodComponent } from 'src/app/shared/food/food.component';
 @NgModule({
   declarations: [
     MainComponent,
@@ -26,7 +26,8 @@ import { FeaturedCardsComponent } from 'src/app/shared/featured-cards/featured-c
     AboutComponent,
     FaqComponent,
     CtaComponent,
-    FeaturedCardsComponent
+    FeaturedCardsComponent,
+    FoodComponent
   ],
   imports: [
     CommonModule,

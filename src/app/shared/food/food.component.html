@@ -1,0 +1,154 @@
+<section class="w-full h-3/5 pl-5 pr-5 featured-card">
+  <div class="flex justify-between items-center max-md:w-auto">
+    <div class="pt-20 pl-48 w-2/6 ml-20">
+      <h1 style="color: #275CB1;" class="text-3xl font-extrabold">Food</h1>
+      <p style="margin-top: -10px;" class="font-medium">Etiam ultricies nisi vel augue.</p>
+    </div>
+    <div class="pt-20 pl-60 w-2/6 ml-20">
+      <button nz-button style="border: none; border-radius: 5px; background-color: #1D1D1D;" class="w-28 h-10 rounded-lg">
+        <div class="flex items-center">
+          <label class="text-white">See More</label>
+          <img class="pl-2" src="assets/icons/arrow-icon.svg">
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-4 gap-4" nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }" nzJustify="center">
+    <!-- 1st Card -->
+    <div class="card rounded-lg pt-2 bg-[#FCFCFC] w-[280px] h-[338px]" nz-col nzSpan="4">
+      <div class="flex justify-between mb-4">
+        <div class="discount rounded-br-xl rounded-tl-lg">
+         <!-- <span class="text-white flex justify-center mt-1">Save 2%</span> -->
+        </div>
+        <div class="flex">
+          <nz-rate [ngModel]="5" nzDisabled></nz-rate>
+        </div>
+      </div>
+      <div class="rounded-lg bg-[#E11383] h-36 flex content-center justify-center">
+        <img class="w-36 h-20 m-auto" src="assets/images/dunkin-donut.png">
+      </div>
+      <div class="my-5">
+        <h4><b>Dunkin’ Donuts</b></h4> 
+        <p style="color: #1D1D1D">from $5 - 50</p> 
+        <div class="grid grid-cols-2 gap-4">
+          <div class="col-start-1 col-end-2">
+            <nz-select class="select-value" ngModel="$5" nzPlaceHolder="$5">
+              <nz-option nzValue="$5" nzLabel="$5"></nz-option>
+              <nz-option nzValue="$10" nzLabel="$10"></nz-option>
+              <nz-option nzValue="$15" nzLabel="$15"></nz-option>
+              <nz-option nzValue="$20" nzLabel="$20"></nz-option>
+            </nz-select>
+          </div>
+          <div class="col-end-6 col-span-2">
+            <button nz-button style="border: none; border-radius: 5px; background-color: #275CB1;" class="w-28 h-10">
+              <span class="text-white ">Add to Cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2nd Card -->
+    <div class="card rounded-lg pt-2 bg-[#FCFCFC] w-[280px] h-[338px]" nz-col nzSpan="4">
+      <div class="flex justify-between mb-4">
+        <div class="discount rounded-br-xl rounded-tl-lg">
+         <!-- <span class="text-white flex justify-center mt-1">Save 2%</span> -->
+        </div>
+        <div class="flex">
+          <nz-rate [ngModel]="5" nzDisabled></nz-rate>
+        </div>
+      </div>
+      <div class="rounded-lg bg-[#F4F4F4] h-36 flex content-center justify-center">
+        <img class="w-48 h-28 m-auto" src="assets/images/pizza-hut.png">
+      </div>
+      <div class="my-5">
+        <h4><b>Pizza Hut</b></h4> 
+        <p style="color: #1D1D1D">from $5 - 50</p> 
+        <div class="grid grid-cols-2 gap-4">
+          <div class="col-start-1 col-end-2">
+            <nz-select class="select-value" ngModel="$5" nzPlaceHolder="$5">
+              <nz-option nzValue="$5" nzLabel="$5"></nz-option>
+              <nz-option nzValue="$10" nzLabel="$10"></nz-option>
+              <nz-option nzValue="$15" nzLabel="$15"></nz-option>
+              <nz-option nzValue="$20" nzLabel="$20"></nz-option>
+            </nz-select>
+          </div>
+          <div class="col-end-6 col-span-2">
+            <button nz-button style="border: none; border-radius: 5px; background-color: #275CB1;" class="w-28 h-10">
+              <span class="text-white ">Add to Cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--3rd Card-->
+    <div class="card rounded-lg pt-2 bg-[#FCFCFC] w-[280px] h-[338px]" nz-col nzSpan="4">
+      <div class="flex justify-between mb-4">
+        <div class="discount rounded-br-xl rounded-tl-lg">
+         <!-- <span class="text-white flex justify-center mt-1">Save 2%</span> -->
+        </div>
+        <div class="flex">
+          <nz-rate [ngModel]="5" nzDisabled></nz-rate>
+        </div>
+      </div>
+      <div class="rounded-lg bg-[#FE0002] h-36 flex content-center justify-center">
+        <img class="w-60 h-28 m-auto" src="assets/images/mcdonalds.png">
+      </div>
+      <div class="my-5">
+        <h4><b>McDonald's</b></h4> 
+        <p style="color: #1D1D1D">from $5 - 50</p> 
+        <div class="grid grid-cols-2 gap-4">
+          <div class="col-start-1 col-end-2">
+            <nz-select class="select-value" ngModel="$5" nzPlaceHolder="$5">
+              <nz-option nzValue="$5" nzLabel="$5"></nz-option>
+              <nz-option nzValue="$10" nzLabel="$10"></nz-option>
+              <nz-option nzValue="$15" nzLabel="$15"></nz-option>
+              <nz-option nzValue="$20" nzLabel="$20"></nz-option>
+            </nz-select>
+          </div>
+          <div class="col-end-6 col-span-2">
+            <button nz-button style="border: none; border-radius: 5px; background-color: #275CB1;" class="w-28 h-10">
+              <span class="text-white ">Add to Cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4th Card -->
+    <div class="card rounded-lg pt-2 bg-[#FCFCFC] w-[280px] h-[338px]" nz-col nzSpan="4">
+      <div class="flex justify-between mb-4">
+        <div class="discount rounded-br-xl rounded-tl-lg">
+         <!-- <span class="text-white flex justify-center mt-1">Save 2%</span> -->
+        </div>
+        <div class="flex">
+          <nz-rate [ngModel]="5" nzDisabled></nz-rate>
+        </div>
+      </div>
+      <div class="rounded-lg bg-[#FF7C00] h-36 flex content-center justify-center">
+        <img class="w-48 h-9 m-auto" src="assets/images/popeyes.png">
+      </div>
+      <div class="my-5">
+        <h4><b>Popeyes</b></h4> 
+        <p style="color: #1D1D1D">from $5 - 50</p> 
+        <div class="grid grid-cols-2 gap-4">
+          <div class="col-start-1 col-end-2">
+            <nz-select class="select-value" ngModel="$5" nzPlaceHolder="$5">
+              <nz-option nzValue="$5" nzLabel="$5"></nz-option>
+              <nz-option nzValue="$10" nzLabel="$10"></nz-option>
+              <nz-option nzValue="$15" nzLabel="$15"></nz-option>
+              <nz-option nzValue="$20" nzLabel="$20"></nz-option>
+            </nz-select>
+          </div>
+          <div class="col-end-6 col-span-2">
+            <button nz-button style="border: none; border-radius: 5px; background-color: #275CB1;" class="w-28 h-10">
+              <span class="text-white ">Add to Cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
