@@ -17,7 +17,10 @@ import { CtaComponent } from 'src/app/shared/cta/cta.component';
 import { NzRateModule } from 'ng-zorro-antd/rate';
 import { FeaturedCardsComponent } from 'src/app/shared/featured-cards/featured-cards.component';
 import { FoodComponent } from 'src/app/shared/food/food.component';
+import { GamingComponent } from 'src/app/shared/gaming/gaming.component';
 import { FooterComponent } from 'src/app/shared/footer/footer.component';
+import { PrepaidComponent } from 'src/app/shared/prepaid/prepaid.component';
+
 @NgModule({
   declarations: [
     MainComponent,
@@ -29,6 +32,8 @@ import { FooterComponent } from 'src/app/shared/footer/footer.component';
     FaqComponent,
     CtaComponent,
     FeaturedCardsComponent,
+    GamingComponent,
+    PrepaidComponent,
     FoodComponent
   ],
   imports: [
