@@ -1,10 +1,10 @@
 <section class="w-full h-3/5 pl-5 pr-5 featured-card">
-  <div class="flex justify-between items-center">
-    <div>
+  <div class="flex justify-between items-center max-md:w-auto">
+    <div class="pt-20 pl-40 w-2/6 ml-20">
       <h1 style="color: #275CB1;" class="text-3xl font-extrabold">Featured Cards</h1>
-      <p style="margin-top: -10px;">Vivamus elementum semper nisi.</p>
+      <p style="margin-top: -10px;" class="font-medium">Vivamus elementum semper nisi.</p>
     </div>
-    <div>
+    <div class="pt-20 pl-40 w-2/6 ml-20">
       <button nz-button  nzType="primary" class="w-28 h-10 rounded-lg">
         <div class="flex items-center">
           <label>See More</label>
@@ -13,128 +13,134 @@
       </button>
     </div>
   </div>
-  <div class="flex">
-    <!--card 1-->
-    <div class="card mr-5">
-      <div class="h-48" style="background-color: #F5EBDC; border-radius: 8px 8px 0 0;">
-        <div class="flex justify-between mb-4">
-          <div class="discount rounded-br-xl rounded-tl-lg">
-            <span class="text-white flex justify-center mt-1">Save 2%</span>
+  <div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32, xl: 32, xxl: 32 }" nzJustify="center">
+    <div class="flex">
+      <!--card 1-->
+      <div class="card mr-5">
+        <div class="h-48" style="background-color: #F5EBDC; border-radius: 8px 8px 0 0;">
+          <div class="flex justify-between mb-4">
+            <div class="discount rounded-br-xl rounded-tl-lg">
+              <span class="text-white flex justify-center mt-1">Save 2%</span>
+            </div>
+            <div class="flex mr-2">
+              <nz-rate [ngModel]="5" nzDisabled></nz-rate>
+            </div>
           </div>
-          <div class="flex mt-2 mr-2">
-            <!--stars rate-->
-          </div>
+          <img src="assets/images/burger-king.png" class="w-28 h-28 m-auto ">
         </div>
-        <img src="assets/images/burger-king.png" class="w-28 h-28 m-auto ">
-      </div>
-      <div class="container">
-        <h4><b>Burger King</b></h4> 
-        <p style="color: #1D1D1D">from $5 - 50</p> 
-        <div class="grid grid-cols-6 gap-4">
-          <div class="col-start-1 col-end-3">
-            <nz-select class="select-value" ngModel="$5" nzPlaceHolder="$5">
-              <nz-option nzValue="$5" nzLabel="$5"></nz-option>
-              <nz-option nzValue="$10" nzLabel="$10"></nz-option>
-              <nz-option nzValue="$15" nzLabel="$15"></nz-option>
-              <nz-option nzValue="$20" nzLabel="$20"></nz-option>
-            </nz-select>
-          </div>
-          <div class="col-end-6 col-span-2">
-            <button nz-button nzType="primary" style="border: none; border-radius: 5px;" class="w-28 h-10 rounded-lg"><span class="text-white ">Add to Cart</span></button>
-          </div>
-        </div>    
-      </div>
-    </div>
-    <!--card 2-->
-    <div class="card mr-5">
-      <div class="h-48" style="background-color: #D52116; border-radius: 8px 8px 0 0;">
-        <div class="flex justify-between mb-16">
-          <!-- <div class="discount rounded-br-xl rounded-tl-lg">
-            <span class="text-white flex justify-center mt-1">Save 2%</span>
-          </div> -->
-          <div class="flex mt-2 mr-2">
-          </div>
+        <div class="container">
+          <h4><b>Burger King</b></h4> 
+          <p style="color: #1D1D1D">from $5 - 50</p> 
+          <div class="grid grid-cols-6 gap-4">
+            <div class="col-start-1 col-end-3">
+              <nz-select class="select-value" ngModel="$5" nzPlaceHolder="$5">
+                <nz-option nzValue="$5" nzLabel="$5"></nz-option>
+                <nz-option nzValue="$10" nzLabel="$10"></nz-option>
+                <nz-option nzValue="$15" nzLabel="$15"></nz-option>
+                <nz-option nzValue="$20" nzLabel="$20"></nz-option>
+              </nz-select>
+            </div>
+            <div class="col-end-6 col-span-2">
+              <button nz-button nzType="primary" style="border: none; border-radius: 5px;" class="w-28 h-10 rounded-lg"><span class="text-white ">Add to Cart</span></button>
+            </div>
+          </div>    
         </div>
-        <img src="assets/images/nike.png" class="w-40 h-14 m-auto ">
       </div>
-      <div class="container">
-        <h4><b>Nike</b></h4> 
-        <p style="color: #1D1D1D">from $5 - 50</p> 
-        <div class="grid grid-cols-6 gap-4">
-          <div class="col-start-1 col-end-3">
-            <nz-select class="select-value" ngModel="$5" nzPlaceHolder="$5">
-              <nz-option nzValue="$5" nzLabel="$5"></nz-option>
-              <nz-option nzValue="$10" nzLabel="$10"></nz-option>
-              <nz-option nzValue="$15" nzLabel="$15"></nz-option>
-              <nz-option nzValue="$20" nzLabel="$20"></nz-option>
-            </nz-select>
+
+      <!--card 2-->
+      <div class="card mr-5">
+        <div class="h-48" style="background-color: #D52116; border-radius: 8px 8px 0 0;">
+          <div class="flex justify-between mb-16">
+            <div class="rounded-br-xl rounded-tl-lg">
+             <!--  <span class="text-white flex justify-center mt-1">Save 2%</span> -->
+            </div>
+            <div class="flex mr-2">
+              <nz-rate [ngModel]="5" nzDisabled></nz-rate>
+            </div>
           </div>
-          <div class="col-end-6 col-span-2">
-            <button nz-button nzType="primary" style="border: none; border-radius: 5px;" class="w-28 h-10 rounded-lg"><span class="text-white ">Add to Cart</span></button>
-          </div>
-        </div>    
-      </div>
-    </div>
-    <!--card 3-->
-    <div class="card mr-5">
-      <div class="h-48" style="background-color: #0078AE; border-radius: 8px 8px 0 0;">
-        <div class="flex justify-between mb-4">
-          <div class="discount rounded-br-xl rounded-tl-lg">
-            <span class="text-white flex justify-center mt-1">Save 4%</span>
-          </div>
-          <div class="flex mt-2 mr-2">
-            <!--stars rate-->
-          </div>
+          <img src="assets/images/nike.png" class="w-40 h-14 m-auto ">
         </div>
-        <img src="assets/images/dominos.png" class="w-52 h-16 m-auto ">
-      </div>
-      <div class="container">
-        <h4><b>Domino's</b></h4> 
-        <p style="color: #1D1D1D">from $5 - 50</p> 
-        <div class="grid grid-cols-6 gap-4">
-          <div class="col-start-1 col-end-3">
-            <nz-select class="select-value" ngModel="$5" nzPlaceHolder="$5">
-              <nz-option nzValue="$5" nzLabel="$5"></nz-option>
-              <nz-option nzValue="$10" nzLabel="$10"></nz-option>
-              <nz-option nzValue="$15" nzLabel="$15"></nz-option>
-              <nz-option nzValue="$20" nzLabel="$20"></nz-option>
-            </nz-select>
-          </div>
-          <div class="col-end-6 col-span-2">
-            <button nz-button nzType="primary" style="border: none; border-radius: 5px;" class="w-28 h-10 rounded-lg"><span class="text-white ">Add to Cart</span></button>
-          </div>
-        </div>    
-      </div>
-    </div>
-    <!--card 4-->
-    <div class="card mr-5">
-      <div class="h-48" style="background-color: #0257A7; border-radius: 8px 8px 0 0;">
-        <div class="flex justify-between mb-4">
-          <div class="discount rounded-br-xl rounded-tl-lg">
-            <span class="text-white flex justify-center mt-1">Save 2%</span>
-          </div>
-          <div class="flex mt-2 mr-2">
-            <!--stars rate-->
-          </div>
+        <div class="container">
+          <h4><b>Nike</b></h4> 
+          <p style="color: #1D1D1D">from $5 - 50</p> 
+          <div class="grid grid-cols-6 gap-4">
+            <div class="col-start-1 col-end-3">
+              <nz-select class="select-value" ngModel="$5" nzPlaceHolder="$5">
+                <nz-option nzValue="$5" nzLabel="$5"></nz-option>
+                <nz-option nzValue="$10" nzLabel="$10"></nz-option>
+                <nz-option nzValue="$15" nzLabel="$15"></nz-option>
+                <nz-option nzValue="$20" nzLabel="$20"></nz-option>
+              </nz-select>
+            </div>
+            <div class="col-end-6 col-span-2">
+              <button nz-button nzType="primary" style="border: none; border-radius: 5px;" class="w-28 h-10 rounded-lg"><span class="text-white ">Add to Cart</span></button>
+            </div>
+          </div>    
         </div>
-        <img src="assets/images/ikea.png" class="w-52 h-28 m-auto ">
       </div>
-      <div class="container">
-        <h4><b>Ikea</b></h4> 
-        <p style="color: #1D1D1D">from $5 - 50</p> 
-        <div class="grid grid-cols-6 gap-4">
-          <div class="col-start-1 col-end-3">
-            <nz-select class="select-value" ngModel="$5" nzPlaceHolder="$5">
-              <nz-option nzValue="$5" nzLabel="$5"></nz-option>
-              <nz-option nzValue="$10" nzLabel="$10"></nz-option>
-              <nz-option nzValue="$15" nzLabel="$15"></nz-option>
-              <nz-option nzValue="$20" nzLabel="$20"></nz-option>
-            </nz-select>
+
+      <!--card 3-->
+      <div class="card mr-5">
+        <div class="h-48" style="background-color: #0078AE; border-radius: 8px 8px 0 0;">
+          <div class="flex justify-between mb-9">
+            <div class="discount rounded-br-xl rounded-tl-lg">
+              <span class="text-white flex justify-center mt-1">Save 4%</span>
+            </div>
+            <div class="flex mr-2">
+              <nz-rate [ngModel]="5" nzDisabled></nz-rate>
+            </div>
           </div>
-          <div class="col-end-6 col-span-2">
-            <button nz-button nzType="primary" style="border: none; border-radius: 5px;" class="w-28 h-10 rounded-lg"><span class="text-white ">Add to Cart</span></button>
+          <img src="assets/images/dominos.png" class="w-52 h-16 m-auto ">
+        </div>
+        <div class="container">
+          <h4><b>Domino's</b></h4> 
+          <p style="color: #1D1D1D">from $5 - 50</p> 
+          <div class="grid grid-cols-6 gap-4">
+            <div class="col-start-1 col-end-3">
+              <nz-select class="select-value" ngModel="$5" nzPlaceHolder="$5">
+                <nz-option nzValue="$5" nzLabel="$5"></nz-option>
+                <nz-option nzValue="$10" nzLabel="$10"></nz-option>
+                <nz-option nzValue="$15" nzLabel="$15"></nz-option>
+                <nz-option nzValue="$20" nzLabel="$20"></nz-option>
+              </nz-select>
+            </div>
+            <div class="col-end-6 col-span-2">
+              <button nz-button nzType="primary" style="border: none; border-radius: 5px;" class="w-28 h-10 rounded-lg"><span class="text-white ">Add to Cart</span></button>
+            </div>
+          </div>    
+        </div>
+      </div>
+
+      <!--card 4-->
+      <div class="card mr-5">
+        <div class="h-48" style="background-color: #0257A7; border-radius: 8px 8px 0 0;">
+          <div class="flex justify-between mb-4">
+            <div class="discount rounded-br-xl rounded-tl-lg">
+              <span class="text-white flex justify-center mt-1">Save 2%</span>
+            </div>
+            <div class="flex mr-2">
+              <nz-rate [ngModel]="5" nzDisabled></nz-rate>
+            </div>
           </div>
-        </div>    
+          <img src="assets/images/ikea.png" class="w-52 h-28 m-auto ">
+        </div>
+        <div class="container">
+          <h4><b>Ikea</b></h4> 
+          <p style="color: #1D1D1D">from $5 - 50</p> 
+          <div class="grid grid-cols-6 gap-4">
+            <div class="col-start-1 col-end-3">
+              <nz-select class="select-value" ngModel="$5" nzPlaceHolder="$5">
+                <nz-option nzValue="$5" nzLabel="$5"></nz-option>
+                <nz-option nzValue="$10" nzLabel="$10"></nz-option>
+                <nz-option nzValue="$15" nzLabel="$15"></nz-option>
+                <nz-option nzValue="$20" nzLabel="$20"></nz-option>
+              </nz-select>
+            </div>
+            <div class="col-end-6 col-span-2">
+              <button nz-button nzType="primary" style="border: none; border-radius: 5px;" class="w-28 h-10 rounded-lg"><span class="text-white ">Add to Cart</span></button>
+            </div>
+          </div>    
+        </div>
       </div>
     </div>
   </div>

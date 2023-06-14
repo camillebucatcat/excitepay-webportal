@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule }   from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { MainRoutingModule } from './main-routing.module';
 import { MainComponent } from './main.component';
@@ -35,7 +36,8 @@ import { FeaturedCardsComponent } from 'src/app/shared/featured-cards/featured-c
     NzSelectModule,
     NzInputModule,
     NzGridModule,
-    NzRateModule
+    NzRateModule,
+    FormsModule
   ]
 })
 export class MainModule { }
