@@ -17,9 +17,11 @@ import { CtaComponent } from 'src/app/shared/cta/cta.component';
 import { NzRateModule } from 'ng-zorro-antd/rate';
 import { FeaturedCardsComponent } from 'src/app/shared/featured-cards/featured-cards.component';
 import { FoodComponent } from 'src/app/shared/food/food.component';
+import { FooterComponent } from 'src/app/shared/footer/footer.component';
 @NgModule({
   declarations: [
     MainComponent,
+    FooterComponent,
     NavbarComponent,
     HeroComponent,
     CategoryComponent,
