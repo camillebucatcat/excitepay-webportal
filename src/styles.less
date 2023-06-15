@@ -1,6 +1,10 @@
 // -------- import official less file -----------
 @import "../node_modules/ng-zorro-antd/ng-zorro-antd.less";
+
+// -------- override scss style -----------
+@import "./assets/scss/fonts.scss";
 @import "./assets/scss/buttons.scss";
+@import "./assets/scss/custom-tailwind.scss";
 
 // -------- override less variables -----------
 @primary-color: #3376E4;
@@ -15,4 +19,22 @@
     top: 12px;
     right: 18px;
   }
+}
+
+*, html, body {
+  font-family: "Manrope", sans-serif!important;
+}
+
+body {
+  font-size: 16px;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  
+  @media screen and (min-width: 1400px) { max-width: 1400px; }
 }

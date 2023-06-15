@@ -12,4 +12,8 @@
 .ant-btn {
   height: auto;
   font-weight: 600;
+
+  > span {
+    display: auto;
+  }
 }
