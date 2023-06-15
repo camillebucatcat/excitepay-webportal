@@ -1,20 +1,12 @@
 .search-input,
 .ant-input {
-  width: 50rem;
-  height: 2.5rem;
-  margin: auto;
+  height: auto;
 
   .search-bar {
     background-color: #DDE4ED;
-    //color: #fff;
     border-style: none;
+    height: 100%;
     border-radius: 5px;
-    width: 100%;
-    resize: vertical;
-  }
-
-  .ant-input-affix-wrapper>input.ant-input {
-    padding: 15px;
   }
 }
 
@@ -55,26 +47,26 @@ li {
 nav {
   .navbar-btn {
     .btn {
-      img {
-        @apply w-5;
-      }
-
-      span {
-        
-      }
+      height: auto!important;
     }
   }
 }
 
 nz-badge {
-  position: absolute;
-  top: 6px;
-
-  .ant-badge-count {
-    background: #000;
+  .btn {
+    height: 100%;
   }
-
   img {
     margin: 0 auto;
   }
+
+  nz-badge-sup {
+        top: 16px;
+          right: 10px;
+  }
+}
+
+.ant-badge-count-sm {
+  top: 16px;
+    right: 10px;
 }

@@ -1,5 +1,18 @@
 // -------- import official less file -----------
 @import "../node_modules/ng-zorro-antd/ng-zorro-antd.less";
+@import "./assets/scss/buttons.scss";
 
 // -------- override less variables -----------
 @primary-color: #3376E4;
+
+
+// -------- override ant less style -----------
+.ant-badge-count-sm {
+  top: 16px;
+  right: 10px;
+
+  @media screen and (min-width: 768px) {
+    top: 12px;
+    right: 18px;
+  }
+}

@@ -1,5 +1,15 @@
 .btn {
+  border-radius: 6px!important;
+  font-weight: 600;
+
   &.btn-clear {
-    background-color: red;
+    &:hover {
+      color: var(--excite-pay-primary-500);
+    }
   }
+}
+
+.ant-btn {
+  height: auto;
+  font-weight: 600;
 }
