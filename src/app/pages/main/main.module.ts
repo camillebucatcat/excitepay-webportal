@@ -20,6 +20,7 @@ import { FoodComponent } from 'src/app/shared/food/food.component';
 import { GamingComponent } from 'src/app/shared/gaming/gaming.component';
 import { FooterComponent } from 'src/app/shared/footer/footer.component';
 import { PrepaidComponent } from 'src/app/shared/prepaid/prepaid.component';
+import { AppFeaturesComponent } from 'src/app/shared/app-features/app-features.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { PrepaidComponent } from 'src/app/shared/prepaid/prepaid.component';
     FeaturedCardsComponent,
     GamingComponent,
     PrepaidComponent,
-    FoodComponent
+    FoodComponent,
+    AppFeaturesComponent
   ],
   imports: [
     CommonModule,
