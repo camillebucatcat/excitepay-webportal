@@ -1,52 +1,70 @@
-.search-input, .ant-input {
-    width: 50rem;
-    height: 2.5rem;
-    margin: auto;
+.search-input,
+.ant-input {
+  width: 50rem;
+  height: 2.5rem;
+  margin: auto;
 
-    .search-bar {
-        background-color: #DDE4ED; 
-        //color: #fff;
-        border-style: none; 
-        border-radius: 5px;
-        width: 100%;
-        resize: vertical;
-    }
-    
-    .ant-input-affix-wrapper > input.ant-input {
-        padding: 15px;
-    }
+  .search-bar {
+    background-color: #DDE4ED;
+    //color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    resize: vertical;
+  }
+
+  .ant-input-affix-wrapper>input.ant-input {
+    padding: 15px;
+  }
 }
 
 .item-value {
-    height: 11px;
-    width: 11px;
-    border-radius: 50%;
-    background-color: #3376E4;
-    font-size: 7px;
-    color: #fff;
+  height: 11px;
+  width: 11px;
+  border-radius: 50%;
+  background-color: #3376E4;
+  font-size: 7px;
+  color: #fff;
 }
 
 li {
-    display: inline;
+  display: inline;
 }
 
 .topnav {
-    overflow: hidden;
+  overflow: hidden;
 
-    a {
-        float: left;
-        display: block;
-        text-align: center;
-        text-decoration: none;
-        //border-bottom: 6px solid transparent;
-    }
+  a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    //border-bottom: 6px solid transparent;
+  }
 
-    a:hover {
-        //border-bottom: 6px solid #676970;
-    }
+  a:hover {
+    //border-bottom: 6px solid #676970;
+  }
 
-    a.active {
-        //border-bottom: 6px solid #676970;
-        color: #3376E4;
-    }
+  a.active {
+    //border-bottom: 6px solid #676970;
+    color: var(--excite-pay-primary-500);
+  }
+}
+
+nav {
+  .navbar-btn {}
+}
+
+nz-badge {
+  position: absolute;
+  top: 2px;
+
+  .ant-badge-count {
+    background: #000;
+  }
+
+  img {
+    margin: 0 auto;
+  }
 }

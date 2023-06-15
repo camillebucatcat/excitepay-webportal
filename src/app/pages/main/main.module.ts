@@ -25,7 +25,7 @@ import { HowItWorksComponent } from 'src/app/shared/how-it-works/how-it-works.co
 import { ReviewComponent } from 'src/app/shared/review/review.component';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzIconModule } from 'ng-zorro-antd/icon';
-
+import { NzBadgeModule } from 'ng-zorro-antd/badge';
 
 @NgModule({
   declarations: [
@@ -56,7 +56,8 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
     NzRateModule,
     FormsModule,
     NzCollapseModule,
-    NzIconModule
+    NzIconModule,
+    NzBadgeModule
   ]
 })
 export class MainModule { }
