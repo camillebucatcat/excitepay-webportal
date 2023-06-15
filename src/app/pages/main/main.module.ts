@@ -20,7 +20,12 @@ import { FoodComponent } from 'src/app/shared/food/food.component';
 import { GamingComponent } from 'src/app/shared/gaming/gaming.component';
 import { FooterComponent } from 'src/app/shared/footer/footer.component';
 import { PrepaidComponent } from 'src/app/shared/prepaid/prepaid.component';
+<<<<<<< HEAD
 import { AppFeaturesComponent } from 'src/app/shared/app-features/app-features.component';
+=======
+import { NzCollapseModule } from 'ng-zorro-antd/collapse';
+import { NzIconModule } from 'ng-zorro-antd/icon';
+>>>>>>> 76de043ff7100c2b62e56e9d2b0ebe4a510d2d3e
 
 @NgModule({
   declarations: [
@@ -47,7 +52,9 @@ import { AppFeaturesComponent } from 'src/app/shared/app-features/app-features.c
     NzInputModule,
     NzGridModule,
     NzRateModule,
-    FormsModule
+    FormsModule,
+    NzCollapseModule,
+    NzIconModule
   ]
 })
 export class MainModule { }
