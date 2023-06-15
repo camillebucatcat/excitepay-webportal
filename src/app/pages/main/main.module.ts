@@ -21,7 +21,7 @@ import { GamingComponent } from 'src/app/shared/gaming/gaming.component';
 import { FooterComponent } from 'src/app/shared/footer/footer.component';
 import { PrepaidComponent } from 'src/app/shared/prepaid/prepaid.component';
 import { AppFeaturesComponent } from 'src/app/shared/app-features/app-features.component';
-
+import { HowItWorksComponent } from 'src/app/shared/how-it-works/how-it-works.component';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 
@@ -40,7 +40,8 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
     GamingComponent,
     PrepaidComponent,
     FoodComponent,
-    AppFeaturesComponent
+    AppFeaturesComponent,
+    HowItWorksComponent
   ],
   imports: [
     CommonModule,
