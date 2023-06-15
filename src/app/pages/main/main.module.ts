@@ -9,7 +9,7 @@ import { NavbarComponent } from 'src/app/shared/navbar/navbar.component';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzInputModule } from 'ng-zorro-antd/input';
-import { HeroComponent } from 'src/app/shared/hero/hero.component';
+import { HeroComponent } from 'src/app/components/hero/hero.component';
 import { CategoryComponent } from 'src/app/shared/category/category.component';
 import { AboutComponent } from 'src/app/shared/about/about.component';
 import { FaqComponent } from 'src/app/shared/faq/faq.component';

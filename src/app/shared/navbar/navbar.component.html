@@ -1,42 +1,44 @@
 <nav>
   <!--1st nav-->
-  <div class="container-fluid py-3">
-    <div class="w-full flex items-stretch">
-      <a href="/main" class="mr-5 py-2"><img src="/assets/images/ExcitePay-Logo-1.png" class="w-36 md:w-40 "></a>
+  <div class="py-3">
+    <div class="container-fluid">
       <div class="w-full flex items-stretch">
-        <div class="xl:w-[560px] lg:w-[500px] md:w-[400px] md:block hidden search-input">
-          <nz-input-group class="search-bar" [nzSuffix]="suffixIconSearch">
-            <input type="text" class="search-bar" nz-input placeholder="Search" />
-          </nz-input-group>
-          <ng-template #suffixIconSearch>
-            <span nz-icon>
-              <img src="/assets/icons/search-icon.svg">
-            </span>
-          </ng-template>
-        </div>
-        <div class="ml-auto flex items-stretch">
-          <nz-badge [nzCount]="5" [nzStyle]="{ backgroundColor: '#3376E4' }" nzSize="small">
-            <button nz-button nzType="text" nzSize="small" class="btn px-1 py-0">
-              <img src="/assets/icons/pushcart-black-icon.svg" class="m-auto w-7">
-              <div class="text-xs hidden md:block">My Cart</div>
+        <a href="/main" class="mr-5 py-2"><img src="/assets/images/ExcitePay-Logo-1.png" class="w-36 md:w-40 "></a>
+        <div class="w-full flex items-stretch">
+          <div class="xl:w-[560px] lg:w-[500px] md:w-[400px] md:block hidden search-input">
+            <nz-input-group class="search-bar" [nzSuffix]="suffixIconSearch">
+              <input type="text" class="search-bar" nz-input placeholder="Search" />
+            </nz-input-group>
+            <ng-template #suffixIconSearch>
+              <span nz-icon>
+                <img src="/assets/icons/search-icon.svg">
+              </span>
+            </ng-template>
+          </div>
+          <div class="ml-auto flex items-stretch">
+            <nz-badge [nzCount]="5" [nzStyle]="{ backgroundColor: '#3376E4' }" nzSize="small">
+              <button nz-button nzType="text" nzSize="small" class="btn px-1 py-0">
+                <img src="/assets/icons/pushcart-black-icon.svg" class="m-auto w-7">
+                <div class="text-xs hidden md:block">My Cart</div>
+              </button>
+            </nz-badge>
+            <button nz-button nzType="text" nzSize="small" class="btn mx-2 px-1 py-0">
+              <img src="/assets/icons/user-dark-icon.svg" class="m-auto w-7">
+              <div class="text-xs hidden md:block">Log In</div>
             </button>
-          </nz-badge>
-          <button nz-button nzType="text" nzSize="small" class="btn mx-2 px-1 py-0">
-            <img src="/assets/icons/user-dark-icon.svg" class="m-auto w-7">
-            <div class="text-xs hidden md:block">Log In</div>
-          </button>
-          <button nz-button nzType="primary" nzSize="small" class="btn h-auto px-4 py-0 hidden md:block">Sign
-            Up</button>
-          <button nz-button nzType="text" nzSize="small" class="btn h-auto md:hidden" (click)="open()">
-            <img src="./assets/icons/icon-menu.svg" alt="">
-          </button>
+            <button nz-button nzType="primary" nzSize="small" class="btn h-auto px-4 py-0 hidden md:block">Sign
+              Up</button>
+            <button nz-button nzType="text" nzSize="small" class="btn h-auto md:hidden" (click)="open()">
+              <img src="./assets/icons/icon-menu.svg" alt="">
+            </button>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <!--2nd nav-->
-  <div class="py-2 hidden md:block">
+  <div class="pt-2 pb-3 hidden md:block">
     <div class="container-fluid">
       <div class="w-full flex  items-center justify-between topnav">
         <ul nz-menu nzMode="horizontal">

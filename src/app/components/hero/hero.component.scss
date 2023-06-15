@@ -1,0 +1,42 @@
+.hero-section {
+  background: url(/assets/images/hero-header.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+
+  h1 {
+    line-height: 1.25;
+  }
+
+  @media screen and (min-width: 992px) {
+    height: 85vh;
+    max-height: 650px;
+  }
+}
+
+// @media (max-width: 640px){
+//     h1, p{
+//         line-height: 1.5;
+//     }
+//     .card{
+//         height: 74vh;
+//     }
+//  }
+
+//  @media (min-width: 1536px) {
+//     .phone-img{
+//         margin-top: 60px !important;
+//         height: max-content;
+//     }
+//  }
+
+//  @media (max-width: 1280px) { 
+//     .phone-img{
+//         margin-bottom: 10px !important;
+
+//         img{
+//             height: 101.4%;
+//         }
+//     }
+//   }
