@@ -1,0 +1,24 @@
+
+
+.ant-collapse-item{
+    border: 4px solid white;
+    border-radius: 4px;
+}
+// collapse active 
+.ant-collapse-item-active{
+    .ant-collapse-header{
+        background: #102F59 !important;
+        color: white;
+    }
+        background-color: #F7F8FA;
+}
+// entire collapse inactive 
+.ant-collapse-borderless{
+    background-color: #E4E8F1;
+    border-radius: 5px;
+}
+
+.ant-collapse-icon-position-right > .ant-collapse-item > .ant-collapse-header {
+    background: #102F59;
+    color: white;
+}
