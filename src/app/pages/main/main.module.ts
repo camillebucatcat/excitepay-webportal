@@ -26,7 +26,8 @@ import { ReviewComponent } from 'src/app/shared/review/review.component';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzBadgeModule } from 'ng-zorro-antd/badge';
-
+import { NzDrawerModule } from 'ng-zorro-antd/drawer';
+import { NzMenuModule } from 'ng-zorro-antd/menu';
 @NgModule({
   declarations: [
     MainComponent,
@@ -57,7 +58,9 @@ import { NzBadgeModule } from 'ng-zorro-antd/badge';
     FormsModule,
     NzCollapseModule,
     NzIconModule,
-    NzBadgeModule
+    NzBadgeModule,
+    NzDrawerModule,
+    NzMenuModule
   ]
 })
 export class MainModule { }

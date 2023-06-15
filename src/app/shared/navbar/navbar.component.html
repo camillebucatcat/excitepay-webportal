@@ -1,6 +1,6 @@
-<nav class="py-3">
+<nav>
   <!--1st nav-->
-  <div class="container-fluid">
+  <div class="container-fluid py-3">
     <div class="w-full flex items-stretch">
       <a href="/main" class="mr-5 py-2"><img src="/assets/images/ExcitePay-Logo-1.png" class="w-36 md:w-40 "></a>
       <div class="w-full flex items-stretch">
@@ -25,73 +25,47 @@
             <img src="/assets/icons/user-dark-icon.svg" class="m-auto w-7">
             <div class="text-xs hidden md:block">Log In</div>
           </button>
-          <button nz-button nzType="primary" nzSize="small" class="btn h-auto px-4 py-0 hidden md:block">Sign Up</button>
-          <button nz-button nzType="text" nzSize="small" class="btn h-auto md:hidden">
+          <button nz-button nzType="primary" nzSize="small" class="btn h-auto px-4 py-0 hidden md:block">Sign
+            Up</button>
+          <button nz-button nzType="text" nzSize="small" class="btn h-auto md:hidden" (click)="open()">
             <img src="./assets/icons/icon-menu.svg" alt="">
           </button>
         </div>
       </div>
     </div>
   </div>
-  <!-- <div class="w-full flex items-center justify-between print:justify-center p-4 relative">
-    <div class="ml-20">
-      <img src="/assets/images/ExcitePay-Logo-1.png" class="w-32">
-    </div>
-    <div class="flex items-center search-input">
-      <nz-input-group class="search-bar" [nzSuffix]="suffixIconSearch" >
-        <input type="text" class="search-bar" nz-input placeholder="Search" />
-      </nz-input-group>
-      <ng-template #suffixIconSearch>
-        <span nz-icon nzType="search">
-          <img src="/assets/icons/search-icon.svg">
-        </span>
-      </ng-template>
-      <div class="ml-3.5">
-        <button class="flex">
-          <div class="flex md:m-0 w-5 h-5">
-            <img src="/assets/icons/pushcart-black-icon.svg">
-            <div class="absolute text-center item-value ml-4">
-              <span>0</span>
-            </div>
-          </div>
-        </button>
-      </div>
-    </div>
-    <div class="flex items-center mr-14">
-      <button nz-button nzType="text"><span class="font-semibold text-sm text-black">Log In</span></button>
-      <button nz-button nzType="primary" class="w-24 h-10 rounded-lg">Sign Up</button>
-    </div>
-    <div class="flex items-center justify-items-end">
-      <button nz-button><img src="./assets/icons/icon-menu.svg"></button>
-    </div>
-  </div> -->
 
   <!--2nd nav-->
-  <div class="w-full hidden md:flex  items-center justify-between p-4 relative">
-    <div class="topnav">
-      <ul class="list-none ml-20">
-        <li>
-          <a href="#home" class="active text-sm font-semibold text-black">Home</a>
-        </li>
-        <li>
-          <a href="#features" class="text-sm font-semibold mx-10 text-black	">Features</a>
-        </li>
-        <li>
-          <a href="#gift-cards" class="text-sm font-semibold text-black	">Gift Cards</a>
-        </li>
-        <li>
-          <a href="#about" class="text-sm font-semibold ml-10 text-black	">About</a>
-        </li>
-      </ul>
-    </div>
-    <div class="topnav">
-      <ul class="list-none mr-12">
-        <li>
-          <a href="#support" class="text-sm font-semibold mr-10 text-black	">Support</a>
-        <li>
-          <a href="#contact-us" class="text-sm font-semibold text-black	">Contact Us</a>
-        </li>
-      </ul>
+  <div class="py-2 hidden md:block">
+    <div class="container-fluid">
+      <div class="w-full flex  items-center justify-between topnav">
+        <ul nz-menu nzMode="horizontal">
+          <li nz-menu-item><a href="#home" class="active nav-link">Home</a></li>
+          <li nz-menu-item><a href="#features" class="nav-link">Features</a></li>
+          <li nz-menu-item><a href="#gift-cards" class="nav-link">Gift Cards</a></li>
+          <li nz-menu-item><a href="#about" class="nav-link">About</a></li>
+        </ul>
+        <ul nz-menu nzMode="horizontal">
+          <li nz-menu-item><a href="#support" class="nav-link">Support</a></li>
+          <li nz-menu-item><a href="#contact-us" class="nav-link">Contact Us</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>
+<nz-drawer [nzClosable]="true" [nzVisible]="visible" nzPlacement="right" (nzOnClose)="close()">
+  <ng-container *nzDrawerContent>
+    <div>
+
+    </div>
+    <ul nz-menu nzMode="vertical">
+      <li nz-menu-item><a href="#home" class="active nav-link">Home</a></li>
+      <li nz-menu-item><a href="#features" class="nav-link">Features</a></li>
+      <li nz-menu-item><a href="#gift-cards" class="nav-link">Gift Cards</a></li>
+      <li nz-menu-item><a href="#about" class="nav-link">About</a></li>
+      <li nz-menu-item><a href="#support" class="nav-link">Support</a></li>
+      <li nz-menu-item><a href="#contact-us" class="nav-link">Contact Us</a></li>
+      <li nz-menu-item class=" nav-cta"><a href="#contact-us" class="nav-link text-white">Sign up</a></li>
+    </ul>
+  </ng-container>
+</nz-drawer>
