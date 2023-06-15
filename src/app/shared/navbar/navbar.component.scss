@@ -53,12 +53,22 @@ li {
 }
 
 nav {
-  .navbar-btn {}
+  .navbar-btn {
+    .btn {
+      img {
+        @apply w-5;
+      }
+
+      span {
+        
+      }
+    }
+  }
 }
 
 nz-badge {
   position: absolute;
-  top: 2px;
+  top: 6px;
 
   .ant-badge-count {
     background: #000;
