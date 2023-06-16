@@ -1,0 +1,107 @@
+<section class="h-[130vh]">
+    <div class="px-[130px]">
+        
+        <div class="grid justify-self-start">
+            <a href="" class="text-[#BDC7D3] text-base">Gift Cards <span>></span> Restaurants <span>></span> Dunkin’ Donuts</a>
+        </div>
+        <div nz-row class="mt-9">
+            <div nz-col nzSpan="12">
+                <img src="assets/images/dunkin-donuts-product.svg" alt="dunkin donuts">
+            </div>
+            <div nz-col nzSpan="12">
+                <h1 class="text-[48px] font-extrabold text-[#275CB1] -mb-4">Dunkin’ Donuts</h1>
+                <div class="flex">
+                    <nz-rate [ngModel]="4" nzDisabled></nz-rate>
+                  </div>
+                <P class="text-base font-medium mt-6 mb-[66px]">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
+                    quis enim.</P>
+
+                    <div nz-row class="mb-3">
+                        <div nz-col nzSpan="8">
+                            <p class="text-base font-medium">Select Amount</p>
+                        </div>
+                        <div nz-col nzSpan="6">
+                            <p class="text-base font-medium">Quantity</p>
+                        </div>
+                    </div>
+                    <div nz-row class="mb-12">
+                        <div nz-col nzSpan="8" class="grid justify-content-stretch pr-2">
+                            <nz-select class="select-value rounded-lg" ngModel="$5" nzPlaceHolder="$5">
+                                <nz-option nzValue="$5" nzLabel="$5"></nz-option>
+                                <nz-option nzValue="$10" nzLabel="$10"></nz-option>
+                                <nz-option nzValue="$15" nzLabel="$15"></nz-option>
+                                <nz-option nzValue="$20" nzLabel="$20"></nz-option>
+                              </nz-select>
+                        </div>
+                        <div nz-col nzSpan="6">
+                            <nz-input-number [ngModel]="1" [nzMin]="1"></nz-input-number>
+                        </div>
+                    </div>
+
+                    <div nz-row class="mb-4">
+                        <div nz-col nzSpan="12">
+                            <p class="text-semibold text-[#275cb1] text-xl">Total:</p>
+                        </div>
+                        <div nz-col nzSpan="12" class="text-end">
+                            <p class="text-xl text-semibold">$ 5.00</p>
+                        </div>
+                    </div>
+
+                    <div class="grid justify-items-stretch mb-1.5">
+                        <button nz-button style="background: #275CB1;
+                        border-radius: 7px; color: white; padding: 12px 216px;"><span class="pr-2"><img src="/assets/images/shopping-bag.svg"></span><span>Buy Now</span> </button>
+                    </div>
+
+                    <div nz-row>
+                        <div nz-col nzSpan="12">
+                            <div class="btn-2 grid justify-content-stretch pr-2">
+                               <button nz-button><span nz-icon nzType="plus" nzTheme="outline"></span>Add to Cart</button> 
+                            </div>
+                            
+                        </div>
+                        <div nz-col nzSpan="12"  class="btn-2 grid justify-content-stretch">
+                            <button nz-button>Purchase as gift</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+        <div nz-row style="border-top: 1px solid #BDC7D3; border-bottom: 1px solid #BDC7D3; margin-top: 68px;">
+            <div nz-col nzSpan="4" class="my-[34px] mx-[97px]">
+                <div>
+                    <h1 class="text-[137px] font-extrabold text-center -mb-7">4.0</h1>
+                        <div class="flex justify-center">
+                    <nz-rate [ngModel]="4" nzDisabled></nz-rate>
+                        </div>
+                </div>
+                
+            </div>
+            <div class="divider"></div>
+            <div nz-col nzSpan="12" class="ml-[78px] my-[40px]">
+                <div>
+                    <h2 class="text-xl font-extrabold mb-2">Description</h2>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+
+                    <h2 class="text-xl font-extrabold mt-7 mb-2">How to redeem</h2>
+                    <ol class="list-decimal ml-5">
+                        <li>Print or copy the eGift code.</li>
+                        <li>Go to any participating locations.</li>
+                        <li>Present code and enjoy!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <nz-collapse [nzBordered]="false" nzGhost="true" nzExpandIconPosition="right">
+            <nz-collapse-panel nzHeader="Terms & Condition">
+              <p>content</p>
+            </nz-collapse-panel>
+            <div class="divider-bottom"></div>
+            <nz-collapse-panel nzHeader="Cras dapibus">
+                <p>content</p>
+              </nz-collapse-panel>
+          </nz-collapse>
+    </div>
+        
+    
+</section>
