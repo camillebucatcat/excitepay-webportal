@@ -4,6 +4,7 @@
 // -------- override scss style -----------
 @import "./assets/scss/fonts.scss";
 @import "./assets/scss/buttons.scss";
+@import "./assets/scss/featured-card.scss";
 @import "./assets/scss/custom-tailwind.scss";
 
 // -------- override less variables -----------
@@ -27,10 +28,12 @@
 
 body {
   font-size: 16px;
+  background-color: #F5F6F9;
 }
 
 .container-fluid {
   width: 100%;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
@@ -39,6 +42,14 @@ body {
   // @media screen and (min-width: 576px) { max-width: 540px; }
   // @media screen and (min-width: 768px) { max-width: 720px; }
   // @media screen and (min-width: 992px) { max-width: 960px; }
-  @media screen and (min-width: 1200px) { max-width: 1140px; }
-  @media screen and (min-width: 1400px) { max-width: 1350px; }
+  // @media screen and (min-width: 1200px) { max-width: 1140px; }
+  // @media screen and (min-width: 1400px) { max-width: 1350px; }
+}
+
+.ant-rate {
+  font-size: 16px;
+  color: #FFAE4F;
+}
+.ant-rate-star:not(:last-child){
+  margin-right: 4px;
 }

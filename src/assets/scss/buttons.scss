@@ -1,17 +1,24 @@
 .btn {
+  @apply font-semibold px-4 py-2; 
   border-radius: 6px!important;
-  font-weight: 600;
 
   &.btn-clear {
     &:hover {
-      color: var(--excite-pay-primary-500);
+      @apply text-primary-500;
     }
+  }
+
+  &.btn-dark {
+    @apply bg-dark-500 text-white;
   }
 }
 
+[nz-button] {
+  @apply border-none;
+}
+
 .ant-btn {
-  height: auto;
-  font-weight: 600;
+  @apply h-auto font-semibold;
 
   > span {
     display: auto;
