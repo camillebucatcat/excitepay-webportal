@@ -11,12 +11,11 @@
             </button>
             <button nz-button nzSize="small" class="bg-[#1D1D1D] btn mx-2 px-4 py-4">
                 <img src="/assets/icons/arrow-right.svg" class="m-auto w-4">
-            </button>
-        </div>
-         -->
-       
-        <nz-carousel [nzEffect]="effect">
-            <div nz-carousel-content *ngFor="let index of array">
+            </button> 
+        </div> -->
+        
+        <nz-carousel class=" mt-4" [nzEffect]="effect">
+            <div class="mb-10" nz-carousel-content *ngFor="let index of array">
                 <div class="my-52" nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }" nzJustify="center">
                     <!-- REVIEW 1 -->
                     <div class="" nz-col nzSpan="6">
@@ -34,7 +33,7 @@
                             <p class="flex justify-center items-center">Kenneth Corvera</p>
                         </div>
                     </div>
-        
+            
                     <!-- REVIEW 2-->
                     <div class="" nz-col nzSpan="6">
                         <img class="absolute w-[380px] h-[199px]" src="assets/images/comment-review-2.png">
@@ -51,9 +50,9 @@
                             <p class="flex justify-center items-center">Cathy Raymundo</p>
                         </div>
                     </div>
-        
-                     <!-- REVIEW 3-->
-                     <div class="" nz-col nzSpan="6">
+            
+                    <!-- REVIEW 3-->
+                    <div class="" nz-col nzSpan="6">
                         <img class="absolute w-[380px] h-[199px]" src="assets/images/comment-review-1.png">
                         <div class="ml-5 mt-5">
                             <nz-rate [ngModel]="5" nzDisabled></nz-rate>
@@ -71,6 +70,5 @@
                 </div>
             </div>
         </nz-carousel> 
-        
     </div>
 </section>
