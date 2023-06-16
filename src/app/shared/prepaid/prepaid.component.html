@@ -1,4 +1,127 @@
-<section class="w-full h-3/5 pl-5 pr-5">
+<section>
+  <div class="container-fluid">
+    <div class="w-full py-24">
+      <div class="flex justify-between items-end mb-7">
+        <div>
+          <h1 class="text-primary-600 text-4xl font-extrabold">Prepaid</h1>
+          <p class="text-medium">Etiam ultricies nisi vel augue.</p>
+        </div>
+        <div>
+          <button nz-button class="btn btn-dark">See More  <img class="pl-2 inline-block" src="assets/icons/arrow-icon.svg"></button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="featured-card">
+          <div class="flex center justify-between">
+            <div>
+              <!-- <div class="discount">Save 2%</div> -->
+            </div>
+            <div class="flex pr-3">
+              <nz-rate [ngModel]="4" class="mt-1" nzDisabled></nz-rate>
+            </div>
+          </div>
+          <div class="px-3 py-2">
+            <img class="w-full mb-3" src="assets/images/smart.png">
+            <div class="box-title">Smart</div>
+            <div class="text-sm font-semibold mb-2">from $5 - 50</div>
+            <div class="btn-container">
+              <nz-select class="w-full" ngModel="$5" nzPlaceHolder="$5">
+                <nz-option nzValue="$5" nzLabel="$5"></nz-option>
+                <nz-option nzValue="$10" nzLabel="$10"></nz-option>
+                <nz-option nzValue="$15" nzLabel="$15"></nz-option>
+                <nz-option nzValue="$20" nzLabel="$20"></nz-option>
+              </nz-select>
+              <button nz-button nzSize="small" class="btn bg-primary-600 text-white text-sm p-1 w-full">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="featured-card">
+          <div class="flex center justify-between">
+            <div>
+              <!-- <div class="discount">Save 2%</div> -->
+            </div>
+            <div class="flex pr-3">
+              <nz-rate [ngModel]="3" class="mt-1" nzDisabled></nz-rate>
+            </div>
+          </div>
+          <div class="px-3 py-2">
+            <img class="w-full mb-3" src="assets/images/gomo.png">
+            <div class="box-title">GOMO!</div>
+            <div class="text-sm font-semibold mb-2">from $5 - 50</div>
+            <div class="btn-container">
+              <nz-select class="w-full" ngModel="$5" nzPlaceHolder="$5">
+                <nz-option nzValue="$5" nzLabel="$5"></nz-option>
+                <nz-option nzValue="$10" nzLabel="$10"></nz-option>
+                <nz-option nzValue="$15" nzLabel="$15"></nz-option>
+                <nz-option nzValue="$20" nzLabel="$20"></nz-option>
+              </nz-select>
+              <button nz-button nzSize="small" class="btn bg-primary-600 text-white text-sm p-1 w-full">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="featured-card">
+          <div class="flex center justify-between">
+            <div>
+              <!-- <div class="discount">Save 2%</div> -->
+            </div>
+            <div class="flex pr-3">
+              <nz-rate [ngModel]="2" class="mt-1" nzDisabled></nz-rate>
+            </div>
+          </div>
+          <div class="px-3 py-2">
+            <img class="w-full mb-3" src="assets/images/pldt.png">
+            <div class="box-title">PLDT Home</div>
+            <div class="text-sm font-semibold mb-2">from $5 - 50</div>
+            <div class="btn-container">
+              <nz-select class="w-full" ngModel="$5" nzPlaceHolder="$5">
+                <nz-option nzValue="$5" nzLabel="$5"></nz-option>
+                <nz-option nzValue="$10" nzLabel="$10"></nz-option>
+                <nz-option nzValue="$15" nzLabel="$15"></nz-option>
+                <nz-option nzValue="$20" nzLabel="$20"></nz-option>
+              </nz-select>
+              <button nz-button nzSize="small" class="btn bg-primary-600 text-white text-sm p-1 w-full">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="featured-card">
+          <div class="flex center justify-between">
+            <div>
+              <!-- <div class="discount">Save 2%</div> -->
+            </div>
+            <div class="flex pr-3">
+              <nz-rate [ngModel]="4" class="mt-1" nzDisabled></nz-rate>
+            </div>
+          </div>
+          <div class="px-3 py-2">
+            <img class="w-full mb-3" src="assets/images/globe.png">
+            <div class="box-title">Globe</div>
+            <div class="text-sm font-semibold mb-2">from $5 - 50</div>
+            <div class="btn-container">
+              <nz-select class="w-full" ngModel="$5" nzPlaceHolder="$5">
+                <nz-option nzValue="$5" nzLabel="$5"></nz-option>
+                <nz-option nzValue="$10" nzLabel="$10"></nz-option>
+                <nz-option nzValue="$15" nzLabel="$15"></nz-option>
+                <nz-option nzValue="$20" nzLabel="$20"></nz-option>
+              </nz-select>
+              <button nz-button nzSize="small" class="btn bg-primary-600 text-white text-sm p-1 w-full">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <section class="w-full h-3/5 pl-5 pr-5">
     <div class="flex justify-between items-center max-md:w-auto mb-5">
       <div class="pt-20 pl-48 w-2/6 ml-20">
         <h1 style="color: #275CB1;" class="text-3xl font-extrabold">Food</h1>
@@ -12,15 +135,15 @@
           </div>
         </button>
       </div>
-    </div>
+    </div> -->
   
-    <div class="grid grid-cols-4 gap-4" nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }" nzJustify="center">
+    <!-- <div class="grid grid-cols-4 gap-4" nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }" nzJustify="center"> -->
       <!-- 1st Card -->
-      <div class="card rounded-lg pt-2 bg-[#FCFCFC] w-[280px] h-[340px]" nz-col nzSpan="4">
+      <!-- <div class="card rounded-lg pt-2 bg-[#FCFCFC] w-[280px] h-[340px]" nz-col nzSpan="4">
         <div class="flex justify-between mb-4">
-          <div class="discount rounded-br-xl rounded-tl-lg">
+          <div class="discount rounded-br-xl rounded-tl-lg"> -->
            <!-- <span class="text-white flex justify-center mt-1">Save 2%</span> -->
-          </div>
+          <!-- </div>
           <div class="flex">
             <nz-rate [ngModel]="4" nzDisabled></nz-rate>
           </div>
@@ -47,14 +170,14 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
   
       <!-- 2nd Card -->
-      <div class="card rounded-lg pt-2 bg-[#FCFCFC] w-[280px] h-[338px]" nz-col nzSpan="4">
+      <!-- <div class="card rounded-lg pt-2 bg-[#FCFCFC] w-[280px] h-[338px]" nz-col nzSpan="4">
         <div class="flex justify-between mb-4">
-          <div class="discount rounded-br-xl rounded-tl-lg">
+          <div class="discount rounded-br-xl rounded-tl-lg"> -->
            <!-- <span class="text-white flex justify-center mt-1">Save 2%</span> -->
-          </div>
+          <!-- </div>
           <div class="flex">
             <nz-rate [ngModel]="4" nzDisabled></nz-rate>
           </div>
@@ -81,14 +204,14 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
   
       <!--3rd Card-->
-      <div class="card rounded-lg pt-2 bg-[#FCFCFC] w-[280px] h-[338px]" nz-col nzSpan="4">
+      <!-- <div class="card rounded-lg pt-2 bg-[#FCFCFC] w-[280px] h-[338px]" nz-col nzSpan="4">
         <div class="flex justify-between mb-4">
-          <div class="discount rounded-br-xl rounded-tl-lg">
+          <div class="discount rounded-br-xl rounded-tl-lg"> -->
            <!-- <span class="text-white flex justify-center mt-1">Save 2%</span> -->
-          </div>
+          <!-- </div>
           <div class="flex">
             <nz-rate [ngModel]="2" nzDisabled></nz-rate>
           </div>
@@ -115,14 +238,14 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
   
       <!-- 4th Card -->
-      <div class="card rounded-lg pt-2 bg-[#FCFCFC] w-[280px] h-[338px]" nz-col nzSpan="4">
+      <!-- <div class="card rounded-lg pt-2 bg-[#FCFCFC] w-[280px] h-[338px]" nz-col nzSpan="4">
         <div class="flex justify-between mb-4">
-          <div class="discount rounded-br-xl rounded-tl-lg">
+          <div class="discount rounded-br-xl rounded-tl-lg"> -->
            <!-- <span class="text-white flex justify-center mt-1">Save 2%</span> -->
-          </div>
+          <!-- </div>
           <div class="flex">
             <nz-rate [ngModel]="4" nzDisabled></nz-rate>
           </div>
@@ -151,4 +274,4 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->

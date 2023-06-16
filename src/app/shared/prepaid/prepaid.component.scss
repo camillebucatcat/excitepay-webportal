@@ -1,10 +1,18 @@
-.card {
-    //width: 280px;
-    //height: 338px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-} 
-
-.select-value {
-    border: none;
-    width: 111px;
-}
+.featured-card {
+    @apply bg-white rounded-lg;
+  
+    .btn-container {
+      @apply grid gap-2 grid-cols-2;
+    }
+  
+    .box-title {
+      @apply text-base font-extrabold mb-1 w-full text-ellipsis overflow-hidden whitespace-nowrap;
+    }
+  }
+  
+  .discount {
+    @apply rounded-br-xl rounded-tl-lg text-center text-white text-xs font-medium px-3 py-2;
+    background: #34A853;
+  }
+  
+  
