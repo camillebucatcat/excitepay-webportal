@@ -28,6 +28,7 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzBadgeModule } from 'ng-zorro-antd/badge';
 import { NzDrawerModule } from 'ng-zorro-antd/drawer';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
+import { NzCarouselModule } from 'ng-zorro-antd/carousel';
 @NgModule({
   declarations: [
     MainComponent,
@@ -60,7 +61,7 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
     NzIconModule,
     NzBadgeModule,
     NzDrawerModule,
-    NzMenuModule
+    NzCarouselModule
   ]
 })
 export class MainModule { }

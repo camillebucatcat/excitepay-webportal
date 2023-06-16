@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./review.component.scss']
 })
 export class ReviewComponent {
-
+  array = [1, 2, 3];
+  effect = 'scrollx';
 }
