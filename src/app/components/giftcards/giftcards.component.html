@@ -4,7 +4,7 @@
         <div class="grid justify-self-start">
             <a href="" class="text-[#BDC7D3] text-base">Gift Cards <span>></span> Restaurants <span>></span> Dunkin’ Donuts</a>
         </div>
-        <div nz-row class="mt-9">
+        <div nz-row class="mt-9" nzGutter="4">
             <div nz-col nzSpan="12">
                 <img src="assets/images/dunkin-donuts-product.svg" alt="dunkin donuts">
             </div>
@@ -26,7 +26,7 @@
                     </div>
                     <div nz-row class="mb-12">
                         <div nz-col nzSpan="8" class="grid justify-content-stretch pr-2">
-                            <nz-select class="select-value rounded-lg" ngModel="$5" nzPlaceHolder="$5">
+                            <nz-select class="select-value" ngModel="$5" nzPlaceHolder="$5">
                                 <nz-option nzValue="$5" nzLabel="$5"></nz-option>
                                 <nz-option nzValue="$10" nzLabel="$10"></nz-option>
                                 <nz-option nzValue="$15" nzLabel="$15"></nz-option>
@@ -93,13 +93,14 @@
         </div>
 
         <nz-collapse [nzBordered]="false" nzGhost="true" nzExpandIconPosition="right">
-            <nz-collapse-panel nzHeader="Terms & Condition">
-              <p>content</p>
+            <nz-collapse-panel nzHeader="Terms & Condition" class="text-xl font-extrabold my-3">
+              <p class="text-base font-medium">content</p>
             </nz-collapse-panel>
             <div class="divider-bottom"></div>
-            <nz-collapse-panel nzHeader="Cras dapibus">
-                <p>content</p>
-              </nz-collapse-panel>
+            <nz-collapse-panel nzHeader="Cras dapibus" class="text-xl font-extrabold my-3">
+                <p class="text-base font-medium">content</p>
+            </nz-collapse-panel>
+            <div class="divider-bottom"></div>
           </nz-collapse>
     </div>
         
