@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./categories.component.scss']
 })
 export class CategoriesComponent {
+  visible = false;
 
+  open(): void {
+    this.visible = true;
+  }
+
+  close(): void {
+    this.visible = false;
+  }
 }

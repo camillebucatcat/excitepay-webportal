@@ -10,7 +10,6 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzRateModule } from 'ng-zorro-antd/rate';
-import { FooterComponent } from 'src/app/shared/footer/footer.component';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzBadgeModule } from 'ng-zorro-antd/badge';
@@ -18,10 +17,11 @@ import { NzDrawerModule } from 'ng-zorro-antd/drawer';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzCarouselModule } from 'ng-zorro-antd/carousel';
 import { NavbarModule } from 'src/app/shared/navbar/navbar.module';
+import { CtaModule } from 'src/app/shared/cta/cta.module';
+import { FooterModule } from 'src/app/shared/footer/footer.module';
 @NgModule({
   declarations: [
-    MainComponent,
-    FooterComponent,
+    MainComponent
   ],
   imports: [
     CommonModule,
@@ -39,7 +39,9 @@ import { NavbarModule } from 'src/app/shared/navbar/navbar.module';
     NzDrawerModule,
     NzCarouselModule,
     NzRateModule,
-    NavbarModule
+    NavbarModule,
+    CtaModule,
+    FooterModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 

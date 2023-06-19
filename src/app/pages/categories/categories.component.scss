@@ -9,6 +9,24 @@
 //}
 
 .divider {
-    border-bottom: 1px solid #BDC7D3;
+    border-bottom: 1px solid #dbdfe4;
+    // border-bottom: 1px solid #BDC7D3;
     width: 200px;
+}
+
+section {
+  background-color: #F5F6F9;
+}
+
+.desktop-menu {
+  li {
+    border-bottom: 1px solid #dbdfe4;
+  }
+}
+.mobile-menu {
+  li {
+    border-bottom: 1px solid #dbdfe4;
+    justify-content: space-between;
+    padding-right: 1rem;
+  }
 }
