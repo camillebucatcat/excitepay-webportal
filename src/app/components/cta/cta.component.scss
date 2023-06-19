@@ -1,0 +1,11 @@
+section {
+    background: url(/assets/images/cta-bg.png);
+    // min-height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+
+    @media screen and (min-width:992px) {
+        background-position: center center;
+    }
+}
