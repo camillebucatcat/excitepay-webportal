@@ -17,11 +17,11 @@ import { NzBadgeModule } from 'ng-zorro-antd/badge';
 import { NzDrawerModule } from 'ng-zorro-antd/drawer';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzCarouselModule } from 'ng-zorro-antd/carousel';
+import { NavbarModule } from 'src/app/shared/navbar/navbar.module';
 @NgModule({
   declarations: [
     MainComponent,
     FooterComponent,
-    NavbarComponent,
   ],
   imports: [
     CommonModule,
@@ -39,6 +39,7 @@ import { NzCarouselModule } from 'ng-zorro-antd/carousel';
     NzDrawerModule,
     NzCarouselModule,
     NzRateModule,
+    NavbarModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 
