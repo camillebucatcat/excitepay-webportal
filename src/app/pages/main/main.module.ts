@@ -15,8 +15,8 @@ import { AboutComponent } from 'src/app/shared/about/about.component';
 import { FaqComponent } from 'src/app/shared/faq/faq.component';
 import { CtaComponent } from 'src/app/shared/cta/cta.component';
 import { NzRateModule } from 'ng-zorro-antd/rate';
-import { FoodComponent } from 'src/app/shared/food/food.component';
-import { GamingComponent } from 'src/app/shared/gaming/gaming.component';
+import { FoodComponent } from 'src/app/components/food/food.component';
+import { GamingComponent } from 'src/app/components/gaming/gaming.component';
 import { FooterComponent } from 'src/app/shared/footer/footer.component';
 import { PrepaidComponent } from 'src/app/shared/prepaid/prepaid.component';
 import { AppFeaturesComponent } from 'src/app/shared/app-features/app-features.component';
@@ -61,7 +61,8 @@ import { FeaturedCardsComponent } from 'src/app/components/featured-cards/featur
     NzIconModule,
     NzBadgeModule,
     NzDrawerModule,
-    NzCarouselModule
+    NzCarouselModule,
+    NzRateModule
   ]
 })
 export class MainModule { }
