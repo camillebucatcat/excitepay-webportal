@@ -14,7 +14,6 @@ import { FaqComponent } from 'src/app/components/faq/faq.component';
 import { CtaComponent } from 'src/app/shared/cta/cta.component';
 import { NzRateModule } from 'ng-zorro-antd/rate';
 import { FooterComponent } from 'src/app/shared/footer/footer.component';
-import { AppFeaturesComponent } from 'src/app/components/app-features/app-features.component';
 import { HowItWorksComponent } from 'src/app/shared/how-it-works/how-it-works.component';
 import { ReviewComponent } from 'src/app/components/review/review.component';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
@@ -31,7 +30,6 @@ import { NzCarouselModule } from 'ng-zorro-antd/carousel';
     CategoryComponent,
     FaqComponent,
     CtaComponent,
-    AppFeaturesComponent,
     HowItWorksComponent,
     ReviewComponent,
   ],
