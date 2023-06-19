@@ -9,7 +9,6 @@ import { NavbarComponent } from 'src/app/shared/navbar/navbar.component';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzInputModule } from 'ng-zorro-antd/input';
-import { HeroComponent } from 'src/app/components/hero/hero.component';
 import { CategoryComponent } from 'src/app/components/category/category.component';
 import { AboutComponent } from 'src/app/components/about/about.component';
 import { FaqComponent } from 'src/app/components/faq/faq.component';
@@ -34,7 +33,6 @@ import { FeaturedCardsComponent } from 'src/app/components/featured-cards/featur
     MainComponent,
     FooterComponent,
     NavbarComponent,
-    HeroComponent,
     FeaturedCardsComponent,
     CategoryComponent,
     AboutComponent,

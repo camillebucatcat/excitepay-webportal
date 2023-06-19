@@ -1,0 +1,16 @@
+.hero-section {
+  background: url(/assets/images/hero-header.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+
+  h1 {
+    line-height: 1.25;
+  }
+
+  @media screen and (min-width: 992px) {
+    height: 85vh;
+    max-height: 650px;
+  }
+}
