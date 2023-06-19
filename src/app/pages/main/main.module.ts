@@ -10,7 +10,6 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { CategoryComponent } from 'src/app/components/category/category.component';
-import { AboutComponent } from 'src/app/components/about/about.component';
 import { FaqComponent } from 'src/app/components/faq/faq.component';
 import { CtaComponent } from 'src/app/shared/cta/cta.component';
 import { NzRateModule } from 'ng-zorro-antd/rate';
@@ -30,7 +29,6 @@ import { NzCarouselModule } from 'ng-zorro-antd/carousel';
     FooterComponent,
     NavbarComponent,
     CategoryComponent,
-    AboutComponent,
     FaqComponent,
     CtaComponent,
     AppFeaturesComponent,
