@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { register } from 'swiper/element/bundle';
+register();
 
 @Component({
   selector: 'app-main',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent {
-
+  array = [1, 2, 3];
+  effect = 'scrollx';
 }

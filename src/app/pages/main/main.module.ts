@@ -9,13 +9,10 @@ import { NavbarComponent } from 'src/app/shared/navbar/navbar.component';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzInputModule } from 'ng-zorro-antd/input';
-import { CategoryComponent } from 'src/app/components/category/category.component';
 import { FaqComponent } from 'src/app/components/faq/faq.component';
 import { CtaComponent } from 'src/app/shared/cta/cta.component';
 import { NzRateModule } from 'ng-zorro-antd/rate';
 import { FooterComponent } from 'src/app/shared/footer/footer.component';
-import { HowItWorksComponent } from 'src/app/shared/how-it-works/how-it-works.component';
-import { ReviewComponent } from 'src/app/components/review/review.component';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzBadgeModule } from 'ng-zorro-antd/badge';
@@ -27,11 +24,8 @@ import { NzCarouselModule } from 'ng-zorro-antd/carousel';
     MainComponent,
     FooterComponent,
     NavbarComponent,
-    CategoryComponent,
     FaqComponent,
     CtaComponent,
-    HowItWorksComponent,
-    ReviewComponent,
   ],
   imports: [
     CommonModule,
