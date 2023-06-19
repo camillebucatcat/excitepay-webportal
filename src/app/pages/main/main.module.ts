@@ -9,8 +9,6 @@ import { NavbarComponent } from 'src/app/shared/navbar/navbar.component';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzInputModule } from 'ng-zorro-antd/input';
-import { FaqComponent } from 'src/app/components/faq/faq.component';
-import { CtaComponent } from 'src/app/shared/cta/cta.component';
 import { NzRateModule } from 'ng-zorro-antd/rate';
 import { FooterComponent } from 'src/app/shared/footer/footer.component';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
@@ -24,8 +22,6 @@ import { NzCarouselModule } from 'ng-zorro-antd/carousel';
     MainComponent,
     FooterComponent,
     NavbarComponent,
-    FaqComponent,
-    CtaComponent,
   ],
   imports: [
     CommonModule,
