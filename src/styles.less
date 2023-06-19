@@ -54,6 +54,29 @@ body {
   margin-right: 4px;
 }
 
+
+.ant-collapse-item {
+  @apply rounded-md border-0 mb-2 bg-[#E4E8F1];
+  border-bottom: none!important;
+
+  &-active {
+    @apply bg-[#F7F8FA];
+
+    .ant-collapse-header {
+      @apply bg-primary-900 text-white;
+      color: #fff !important;
+    }
+  }
+
+  .ant-collapse-header {
+      @apply rounded-md;
+  }
+}
+
+.ant-collapse {
+    background: transparent;
+}
+
 app-review {
   .ant-rate {
     font-size: 14px;

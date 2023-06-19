@@ -12,7 +12,7 @@ import { NzInputModule } from 'ng-zorro-antd/input';
 import { HeroComponent } from 'src/app/components/hero/hero.component';
 import { CategoryComponent } from 'src/app/components/category/category.component';
 import { AboutComponent } from 'src/app/components/about/about.component';
-import { FaqComponent } from 'src/app/shared/faq/faq.component';
+import { FaqComponent } from 'src/app/components/faq/faq.component';
 import { CtaComponent } from 'src/app/shared/cta/cta.component';
 import { NzRateModule } from 'ng-zorro-antd/rate';
 import { FoodComponent } from 'src/app/components/food/food.component';
