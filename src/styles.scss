@@ -1,3 +1,17 @@
 
 /* You can add global styles to this file, and also import other style files */
 @import "./assets/scss/custom-tailwind.scss";
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+.swiper-initialized {
+  --swiper-theme-color: #3376E4;
+  --swiper-pagination-bullet-width: 40px;
+  --swiper-pagination-bullet-height: 6px;
+  --swiper-pagination-bullet-border-radius: 4px;
+  --swiper-navigation-size: 28px;
+  --swiper-navigation-top-offset: 30%;
+  --swiper-navigation-sides-offset: 0;
+  // padding: 1rem 3rem;
+}

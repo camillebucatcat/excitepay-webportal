@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule }   from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { MainRoutingModule } from './main-routing.module';
@@ -20,8 +20,8 @@ import { GamingComponent } from 'src/app/components/gaming/gaming.component';
 import { FooterComponent } from 'src/app/shared/footer/footer.component';
 import { PrepaidComponent } from 'src/app/components/prepaid/prepaid.component';
 import { AppFeaturesComponent } from 'src/app/components/app-features/app-features.component';
-import { HowItWorksComponent } from 'src/app/components/how-it-works/how-it-works.component';
-import { ReviewComponent } from 'src/app/shared/review/review.component';
+import { HowItWorksComponent } from 'src/app/shared/how-it-works/how-it-works.component';
+import { ReviewComponent } from 'src/app/components/review/review.component';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzBadgeModule } from 'ng-zorro-antd/badge';
@@ -45,7 +45,7 @@ import { FeaturedCardsComponent } from 'src/app/components/featured-cards/featur
     FoodComponent,
     AppFeaturesComponent,
     HowItWorksComponent,
-    ReviewComponent
+    ReviewComponent,
   ],
   imports: [
     CommonModule,
@@ -62,7 +62,9 @@ import { FeaturedCardsComponent } from 'src/app/components/featured-cards/featur
     NzBadgeModule,
     NzDrawerModule,
     NzCarouselModule,
-    NzRateModule
-  ]
+    NzRateModule,
+  ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+
 })
 export class MainModule { }
