@@ -19,7 +19,7 @@ import { FoodComponent } from 'src/app/components/food/food.component';
 import { GamingComponent } from 'src/app/components/gaming/gaming.component';
 import { FooterComponent } from 'src/app/shared/footer/footer.component';
 import { PrepaidComponent } from 'src/app/components/prepaid/prepaid.component';
-import { AppFeaturesComponent } from 'src/app/shared/app-features/app-features.component';
+import { AppFeaturesComponent } from 'src/app/components/app-features/app-features.component';
 import { HowItWorksComponent } from 'src/app/shared/how-it-works/how-it-works.component';
 import { ReviewComponent } from 'src/app/shared/review/review.component';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
