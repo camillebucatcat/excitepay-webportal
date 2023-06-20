@@ -15,6 +15,9 @@ import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzInputNumberModule } from 'ng-zorro-antd/input-number';
 import { NavbarModule } from 'src/app/shared/navbar/navbar.module';
+import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
+import { CtaModule } from 'src/app/shared/cta/cta.module';
+import { FooterModule } from 'src/app/shared/footer/footer.module';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { NavbarModule } from 'src/app/shared/navbar/navbar.module';
     NzCollapseModule,
     NzIconModule,
     NzInputNumberModule,
-    NavbarModule
+    NavbarModule,
+    NzBreadCrumbModule,
+    CtaModule,
+    FooterModule
   ]
 })
 export class ProductModule { }

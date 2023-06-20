@@ -1,0 +1,21 @@
+.ant-collapse-item {
+  @apply rounded-none mt-0 mb-0 bg-transparent;
+  border-bottom: 1px solid #D9D9D9!important;
+  border-radius: 0!important;
+  &-active {
+    @apply bg-[#F7F8FA];
+
+    .ant-collapse-header {
+      @apply bg-primary-900 text-white;
+      color: #fff !important;
+    }
+  }
+
+  .ant-collapse-header {
+    border-radius: 0 !important;
+  }
+}
+
+.ant-collapse {
+  background: transparent;
+}

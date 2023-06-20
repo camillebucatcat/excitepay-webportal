@@ -1,6 +1,7 @@
 .btn {
   @apply font-semibold px-4 py-2; 
   border-radius: 6px!important;
+  text-shadow: none!important;
 
   &.btn-clear {
     &:hover {
@@ -10,6 +11,10 @@
 
   &.btn-dark {
     @apply bg-dark-500 text-white;
+  }
+
+  &.w-icon {
+    @apply flex items-center justify-center;
   }
 }
 
