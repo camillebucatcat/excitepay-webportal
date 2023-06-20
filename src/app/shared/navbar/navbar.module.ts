@@ -6,6 +6,7 @@ import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzDrawerModule } from 'ng-zorro-antd/drawer';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
+import { NzButtonModule } from 'ng-zorro-antd/button';
 
 
 
@@ -18,7 +19,8 @@ import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
     NzBadgeModule,
     NzInputModule,
     NzDrawerModule,
-    NzDropDownModule
+    NzDropDownModule,
+    NzButtonModule
   ],
   exports: [
     NavbarComponent

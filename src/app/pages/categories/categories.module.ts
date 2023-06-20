@@ -11,7 +11,7 @@ import { CtaModule } from 'src/app/shared/cta/cta.module';
 import { FooterModule } from 'src/app/shared/footer/footer.module';
 import { NzRateComponent, NzRateModule } from 'ng-zorro-antd/rate';
 import { NzDrawerComponent, NzDrawerModule } from 'ng-zorro-antd/drawer';
-
+import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
 @NgModule({
   declarations: [
     CategoriesComponent,
@@ -25,7 +25,8 @@ import { NzDrawerComponent, NzDrawerModule } from 'ng-zorro-antd/drawer';
     CtaModule,
     FooterModule,
     NzRateModule,
-    NzDrawerModule
+    NzDrawerModule,
+    NzBreadCrumbModule
   ]
 })
 export class CategoriesModule {}

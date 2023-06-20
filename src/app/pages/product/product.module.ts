@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzInputNumberModule } from 'ng-zorro-antd/input-number';
+import { NavbarModule } from 'src/app/shared/navbar/navbar.module';
 
 @NgModule({
   declarations: [
@@ -32,8 +33,8 @@ import { NzInputNumberModule } from 'ng-zorro-antd/input-number';
     FormsModule,
     NzCollapseModule,
     NzIconModule,
-    NzInputNumberModule
-    
+    NzInputNumberModule,
+    NavbarModule
   ]
 })
 export class ProductModule { }
